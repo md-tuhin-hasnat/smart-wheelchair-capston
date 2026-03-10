@@ -40,7 +40,7 @@
 23-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 24
 25    <application
-25-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-23:19
+25-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-24:19
 26        android:allowBackup="true"
 26-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:13:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,22 +49,23 @@
 29        android:extractNativeLibs="false"
 30        android:label="Smart Wheelchair DB"
 30-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:14:9-44
-31        android:testOnly="true" >
+31        android:theme="@style/Theme.SmartWheelchairCollector" >
+31-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:15:9-62
 32        <activity
-32-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:15:9-22:20
+32-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:16:9-23:20
 33            android:name="com.mdtuhinhasnat.smartwheelchairdatacollector.MainActivity"
-33-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:16:13-41
+33-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:17:13-41
 34            android:exported="true" >
-34-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:17:13-36
+34-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:18:13-36
 35            <intent-filter>
-35-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:18:13-21:29
+35-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:13-22:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:17-69
-36-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:25-66
+36-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:17-69
+36-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:17-77
-38-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:27-74
+38-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:21:17-77
+38-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:21:27-74
 39            </intent-filter>
 40        </activity>
 41

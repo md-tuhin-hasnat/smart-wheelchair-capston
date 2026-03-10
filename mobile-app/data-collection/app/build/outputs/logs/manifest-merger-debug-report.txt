@@ -1,11 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.room:room-ktx:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/93495772c78a6702abfdab55bf0c0791/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b09c7c86560470db39c8f0bf6973a667/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f83f74cf0ee62ce025baeab9db8ca76b/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/56c74301e607572934a675afbcba1ab3/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/fe03563bdca0822971c23e7cc6b5f425/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/badcee78b4d4f70f9b9b43de95de0267/transformed/navigation-compose-2.7.6/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3:1.1.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ced6523ca556c8fd25322c4bc28dad18/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ab9c103a4e4f9f225b2adb1e99087ac4/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-compose:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/625da299da442ee9a1adfb2d7f5c9577/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
@@ -82,8 +87,8 @@ ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/s
 	android:name
 		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:10:22-78
 application
-ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-23:19
-INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-23:19
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-24:19
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-24:19
 MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
@@ -106,22 +111,24 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/cach
 		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:14:9-44
 	android:allowBackup
 		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:15:9-62
 activity#com.mdtuhinhasnat.smartwheelchairdatacollector.MainActivity
-ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:15:9-22:20
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:exported
-		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:18:13-21:29
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:17-69
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
@@ -130,6 +137,16 @@ MERGED from [androidx.room:room-ktx:2.6.1] /home/touhidur/.gradle/caches/9.0-mil
 MERGED from [androidx.room:room-ktx:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/93495772c78a6702abfdab55bf0c0791/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b09c7c86560470db39c8f0bf6973a667/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b09c7c86560470db39c8f0bf6973a667/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f83f74cf0ee62ce025baeab9db8ca76b/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f83f74cf0ee62ce025baeab9db8ca76b/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/56c74301e607572934a675afbcba1ab3/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/56c74301e607572934a675afbcba1ab3/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/fe03563bdca0822971c23e7cc6b5f425/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/fe03563bdca0822971c23e7cc6b5f425/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/badcee78b4d4f70f9b9b43de95de0267/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/badcee78b4d4f70f9b9b43de95de0267/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ced6523ca556c8fd25322c4bc28dad18/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ced6523ca556c8fd25322c4bc28dad18/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ab9c103a4e4f9f225b2adb1e99087ac4/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44

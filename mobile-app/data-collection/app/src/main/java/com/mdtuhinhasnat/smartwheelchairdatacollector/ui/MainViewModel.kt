@@ -10,17 +10,19 @@ import com.mdtuhinhasnat.smartwheelchairdatacollector.bluetooth.ConnectionState
 import com.mdtuhinhasnat.smartwheelchairdatacollector.data.SensorDataRepository
 import com.mdtuhinhasnat.smartwheelchairdatacollector.data.SessionWithReadings
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.OutputStreamWriter
+import android.util.Log
 
 class MainViewModel(private val repository: SensorDataRepository) : ViewModel() {
 
     val connectionState: StateFlow<ConnectionState> = repository.bluetoothService.connectionState
-    val incomingData: StateFlow<String?> = repository.bluetoothService.incomingData
+    val incomingData: SharedFlow<String> = repository.bluetoothService.incomingData
 
     val allSessions: StateFlow<List<SessionWithReadings>> = repository.getAllSessionsWithReadings()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())

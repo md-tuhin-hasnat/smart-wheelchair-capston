@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.mdtuhinhasnat.smartwheelchairdatacollector.app-mergeDebugResources-43:/values-mr/values-mr.xml",
+            "outputFile": "com.mdtuhinhasnat.smartwheelchairdatacollector.app-mergeDebugResources-48:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/res/values-mr/values-mr.xml",

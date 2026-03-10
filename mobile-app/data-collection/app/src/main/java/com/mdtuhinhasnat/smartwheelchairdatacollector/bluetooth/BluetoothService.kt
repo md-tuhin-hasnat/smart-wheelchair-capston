@@ -16,6 +16,9 @@ import java.io.BufferedReader
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.util.UUID
+import android.util.Log
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.SharedFlow
 
 enum class ConnectionState {
     DISCONNECTED, CONNECTING, CONNECTED, ERROR
@@ -37,8 +40,8 @@ class BluetoothService(private val context: Context) {
     private val _connectionState = MutableStateFlow(ConnectionState.DISCONNECTED)
     val connectionState: StateFlow<ConnectionState> = _connectionState
 
-    private val _incomingData = MutableStateFlow<String?>(null)
-    val incomingData: StateFlow<String?> = _incomingData
+    private val _incomingData = MutableSharedFlow<String>(extraBufferCapacity = 10)
+    val incomingData: SharedFlow<String> = _incomingData
 
     companion object {
         // Standard SPP UUID
@@ -65,13 +68,15 @@ class BluetoothService(private val context: Context) {
             socket?.connect()
 
             if (socket?.isConnected == true) {
+                Log.d("BluetoothService", "Socket connected! Starting listener...")
                 _connectionState.value = ConnectionState.CONNECTED
                 startListening(socket!!.inputStream)
             } else {
+                Log.e("BluetoothService", "Socket connect returned true but isConnected is false")
                 _connectionState.value = ConnectionState.ERROR
             }
         } catch (e: Exception) {
-            e.printStackTrace()
+            Log.e("BluetoothService", "Connection Failed: ${e.message}", e)
             socket?.close()
             _connectionState.value = ConnectionState.ERROR
         }
@@ -79,18 +84,23 @@ class BluetoothService(private val context: Context) {
 
     private suspend fun startListening(inputStream: InputStream) = withContext(Dispatchers.IO) {
         val reader = BufferedReader(InputStreamReader(inputStream))
+        Log.d("BluetoothService", "Listening loop started")
         try {
             while (socket?.isConnected == true) {
                 // The Arduino sends a large JSON array ending with println (newline)
                 val line = reader.readLine()
-                if (line != null && line.trim().startsWith("[") && line.trim().endsWith("]")) {
-                    _incomingData.value = line
-                    // Clear it immediately to allow subsequent identical string emissions if needed
-                    _incomingData.value = null 
+                if (line != null) {
+                    Log.d("BluetoothService", "Received line length: ${line.length}")
+                    if (line.trim().startsWith("[") && line.trim().endsWith("]")) {
+                        Log.d("BluetoothService", "Valid JSON array detected")
+                        _incomingData.tryEmit(line)
+                    } else {
+                        Log.w("BluetoothService", "Line received but did not match expected JSON array start/end")
+                    }
                 }
             }
         } catch (e: Exception) {
-            e.printStackTrace()
+            Log.e("BluetoothService", "Listening Failed: ${e.message}", e)
             _connectionState.value = ConnectionState.ERROR
             socket?.close()
         }

@@ -28,7 +28,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="Smart Wheelchair DB"
-        android:testOnly="true" >
+        android:theme="@style/Theme.SmartWheelchairCollector" >
         <activity
             android:name="com.mdtuhinhasnat.smartwheelchairdatacollector.MainActivity"
             android:exported="true" >

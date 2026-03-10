@@ -1,6 +1,7 @@
 package com.mdtuhinhasnat.smartwheelchairdatacollector.data
 
 import android.content.Context
+import android.util.Log
 import com.mdtuhinhasnat.smartwheelchairdatacollector.bluetooth.BluetoothService
 import kotlinx.coroutines.flow.Flow
 import org.json.JSONArray
@@ -40,11 +41,15 @@ class SensorDataRepository(context: Context) {
             }
             
             // Only save if we got exactly 120 samples as expected
+            Log.d("SensorDataRepository", "Parsed ${readings.size} readings")
             if (readings.size == 120) {
                 dao.insertSessionWithReadings(session, readings)
+                Log.d("SensorDataRepository", "Successfully inserted session to DB")
+            } else {
+                Log.e("SensorDataRepository", "Expected 120 readings, got ${readings.size}. Discarding.")
             }
         } catch (e: Exception) {
-            e.printStackTrace()
+            Log.e("SensorDataRepository", "Error parsing JSON or DB Insert: ${e.message}", e)
         }
     }
 

@@ -8,7 +8,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
@@ -25,16 +25,18 @@ import androidx.compose.ui.unit.sp
 import com.mdtuhinhasnat.smartwheelchairdatacollector.bluetooth.BluetoothDeviceDomain
 import com.mdtuhinhasnat.smartwheelchairdatacollector.bluetooth.ConnectionState
 import com.mdtuhinhasnat.smartwheelchairdatacollector.data.SessionWithReadings
+import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Info
 import java.text.SimpleDateFormat
 import java.util.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MainScreen(viewModel: MainViewModel) {
+fun MainScreen(viewModel: MainViewModel, onSessionSelect: (Long) -> Unit) {
     val context = LocalContext.current
     val connectionState by viewModel.connectionState.collectAsState()
     val allSessions by viewModel.allSessions.collectAsState()
-    val incomingData by viewModel.incomingData.collectAsState()
 
     var selectedDevice by remember { mutableStateOf<BluetoothDeviceDomain?>(null) }
     var expanded by remember { mutableStateOf(false) }
@@ -171,17 +173,27 @@ fun MainScreen(viewModel: MainViewModel) {
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        val statusColor = when (connectionState) {
-                            ConnectionState.CONNECTED -> Color(0xFF31A24C)
-                            ConnectionState.ERROR -> MaterialTheme.colorScheme.error
-                            ConnectionState.CONNECTING -> Color(0xFFE4A11B)
-                            else -> MaterialTheme.colorScheme.onSurfaceVariant
+                        val (statusColor, statusIcon) = when (connectionState) {
+                            ConnectionState.CONNECTED -> Color(0xFF31A24C) to Icons.Default.CheckCircle
+                            ConnectionState.ERROR -> MaterialTheme.colorScheme.error to Icons.Default.Warning
+                            ConnectionState.CONNECTING -> Color(0xFFE4A11B) to Icons.Default.Info
+                            else -> MaterialTheme.colorScheme.onSurfaceVariant to Icons.Default.Info
                         }
-                        Text(
-                            text = "Status: ${connectionState.name}",
-                            color = statusColor,
-                            fontWeight = FontWeight.Medium
-                        )
+                        
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Icon(
+                                imageVector = statusIcon, 
+                                contentDescription = "Status Icon", 
+                                tint = statusColor,
+                                modifier = Modifier.size(20.dp)
+                            )
+                            Spacer(modifier = Modifier.width(8.dp))
+                            Text(
+                                text = connectionState.name,
+                                color = statusColor,
+                                fontWeight = FontWeight.Medium
+                            )
+                        }
                         if (connectionState == ConnectionState.CONNECTED) {
                             Button(onClick = { viewModel.disconnect() }, shape = RoundedCornerShape(8.dp)) {
                                 Text("Disconnect")
@@ -195,11 +207,6 @@ fun MainScreen(viewModel: MainViewModel) {
                                 Text(if (connectionState == ConnectionState.CONNECTING) "Connecting..." else "Connect")
                             }
                         }
-                    }
-
-                    if (incomingData != null) {
-                        Spacer(modifier = Modifier.height(8.dp))
-                        Text("Receiving data...", color = Color(0xFF31A24C), fontSize = 12.sp)
                     }
                 }
             }
@@ -219,18 +226,28 @@ fun MainScreen(viewModel: MainViewModel) {
                     .padding(horizontal = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(allSessions, key = { it.session.sessionId }) { sessionData ->
-                    SessionItem(sessionData = sessionData, onDelete = { viewModel.deleteSession(it) })
+                // Reversing the display so newest is usually on top (depends on DB sorting, assuming DESC)
+                // Using itemsIndexed so we can inject dynamic numbers (Size - index)
+                itemsIndexed(allSessions, key = { _, item -> item.session.sessionId }) { index, sessionData ->
+                    val dynamicSessionNumber = allSessions.size - index
+                    SessionItem(
+                        sessionData = sessionData,
+                        displayNumber = dynamicSessionNumber,
+                        onDelete = { viewModel.deleteSession(it) },
+                        onClick = { onSessionSelect(sessionData.session.sessionId) }
+                    )
                 }
             }
         }
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SessionItem(sessionData: SessionWithReadings, onDelete: (Long) -> Unit) {
+fun SessionItem(sessionData: SessionWithReadings, displayNumber: Int, onDelete: (Long) -> Unit, onClick: () -> Unit) {
     Card(
         modifier = Modifier.fillMaxWidth(),
+        onClick = onClick,
         shape = RoundedCornerShape(8.dp),
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
         elevation = CardDefaults.cardElevation(defaultElevation = 1.dp)
@@ -242,7 +259,7 @@ fun SessionItem(sessionData: SessionWithReadings, onDelete: (Long) -> Unit) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(modifier = Modifier.weight(1f)) {
-                Text("Session #${sessionData.session.sessionId}", fontWeight = FontWeight.Bold)
+                Text("Session #$displayNumber", fontWeight = FontWeight.Bold)
                 val sdf = SimpleDateFormat("MMM dd, yyyy HH:mm:ss", Locale.getDefault())
                 Text(sdf.format(Date(sessionData.session.timestamp)), fontSize = 14.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Text("${sessionData.readings.size} samples recorded", fontSize = 12.sp, color = MaterialTheme.colorScheme.primary)
