@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mdtuhinhasnat.smartwheelchairdatacollector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:4:5-68
+11-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:5:5-74
+12-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:5:22-71
+13    <!-- Android 12+ Bluetooth Permissions -->
+14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+14-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:7:5-76
+14-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+15-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:8:5-73
+15-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:8:22-70
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:9:5-79
+16-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:10:5-81
+17-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:10:22-78
+18
+19    <permission
+19-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+20        android:name="com.mdtuhinhasnat.smartwheelchairdatacollector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.mdtuhinhasnat.smartwheelchairdatacollector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-23:19
+26        android:allowBackup="true"
+26-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:label="Smart Wheelchair DB"
+30-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:14:9-44
+31        android:testOnly="true" >
+32        <activity
+32-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:15:9-22:20
+33            android:name="com.mdtuhinhasnat.smartwheelchairdatacollector.MainActivity"
+33-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:16:13-41
+34            android:exported="true" >
+34-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:17:13-36
+35            <intent-filter>
+35-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:18:13-21:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:17-69
+36-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:17-77
+38-->/home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->[androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+43            android:name="androidx.room.MultiInstanceInvalidationService"
+43-->[androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+44            android:directBootAware="true"
+44-->[androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+45            android:exported="false" />
+45-->[androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+49            android:authorities="com.mdtuhinhasnat.smartwheelchairdatacollector.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+59                android:value="androidx.startup" />
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+60        </provider>
+61
+62        <receiver
+62-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+63            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+64            android:directBootAware="false"
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+65            android:enabled="true"
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+66            android:exported="true"
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+67            android:permission="android.permission.DUMP" >
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+68            <intent-filter>
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+69                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+70            </intent-filter>
+71            <intent-filter>
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+72                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+73            </intent-filter>
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+75                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+76            </intent-filter>
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+78                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+79            </intent-filter>
+80        </receiver>
+81    </application>
+82
+83</manifest>

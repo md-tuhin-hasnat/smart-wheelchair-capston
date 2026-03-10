@@ -1,0 +1,322 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/93495772c78a6702abfdab55bf0c0791/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.compose.material3:material3:1.1.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ced6523ca556c8fd25322c4bc28dad18/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ab9c103a4e4f9f225b2adb1e99087ac4/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/625da299da442ee9a1adfb2d7f5c9577/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/d695da9e6def9b555343374c1e3a5e87/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/2246addc673e3fa18ec93315994033b1/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ff9b9bae40d1bda8cdc9b976cd3a48d3/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/a8cdd43377333c0828a6f26abfb4e6a4/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1433078e8cbcf92c96eb572676dbecda/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b47d15c3d4c1f6ccdaa542fca5897af7/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/d09d92b1aa3ef0dddf86a8759680d326/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b4563fac6d9dedfb143f69b00232f151/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b94656c2d5539a3c143bd7a0e2ac0f29/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/13022f5eed5bbf66b24a0e80fb717187/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/217d66c67cc625cefdbc5c0bb481fdc6/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ddad192b48670fd5b7e023e9c82c7774/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1af86928970b9f36ba2fa5c390c0a766/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c0d2fdc2576e97fd9f17a18e1234a012/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/7bc69d07c5818e34c983935c74973e7d/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b39db6ef6535d049a2e94ddff9266171/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c43992b268625214f52f5d5a069593ee/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f030832658f187a9cbf8b3c76457249c/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/a93e706c27948268a1db7c69babea2be/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ed417242e20e41a48abc1c569c6f7229/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/295c3a524597804c304915d0c80a9772/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/6a14e0064fb65e2e810e0bf70047289e/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/71a8ac048015a40778cfa35318ebd795/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1915fb4e824bfa9cf81441261ae83d18/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c2e8771a103c5271d48fd4d8d1f7e814/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/19bc5cde075fe29d35c0f2b513e2606d/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/30eda1a2aa4a0bf904792d5d97e7898c/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/03d1e8de82f2d38f470972267bce410f/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/3fdc70a9462d24bef86ceecb8f831c73/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f724d97eb6ed4b07553fd60f6c135198/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4fc1e59f90b82389671167b71a0ffdd7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/7f80ecfab0fa13cd142688316db0c9d7/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b9e04f180d1599fd5d473d3c49ead9c1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/47407fee3f95a45b2c69ccb67f996553/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ca26faef4a1039957bbd83f197592606/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:4:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:5:5-74
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:5:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:8:22-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:10:22-78
+application
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-23:19
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:12:5-23:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/47407fee3f95a45b2c69ccb67f996553/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/47407fee3f95a45b2c69ccb67f996553/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:14:9-44
+	android:allowBackup
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:13:9-35
+activity#com.mdtuhinhasnat.smartwheelchairdatacollector.MainActivity
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:15:9-22:20
+	android:exported
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+MERGED from [androidx.room:room-ktx:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/93495772c78a6702abfdab55bf0c0791/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/93495772c78a6702abfdab55bf0c0791/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ced6523ca556c8fd25322c4bc28dad18/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ced6523ca556c8fd25322c4bc28dad18/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ab9c103a4e4f9f225b2adb1e99087ac4/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ab9c103a4e4f9f225b2adb1e99087ac4/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/625da299da442ee9a1adfb2d7f5c9577/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/625da299da442ee9a1adfb2d7f5c9577/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/d695da9e6def9b555343374c1e3a5e87/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/d695da9e6def9b555343374c1e3a5e87/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/2246addc673e3fa18ec93315994033b1/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/2246addc673e3fa18ec93315994033b1/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ff9b9bae40d1bda8cdc9b976cd3a48d3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ff9b9bae40d1bda8cdc9b976cd3a48d3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/a8cdd43377333c0828a6f26abfb4e6a4/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/a8cdd43377333c0828a6f26abfb4e6a4/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1433078e8cbcf92c96eb572676dbecda/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1433078e8cbcf92c96eb572676dbecda/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b47d15c3d4c1f6ccdaa542fca5897af7/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b47d15c3d4c1f6ccdaa542fca5897af7/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/d09d92b1aa3ef0dddf86a8759680d326/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/d09d92b1aa3ef0dddf86a8759680d326/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b4563fac6d9dedfb143f69b00232f151/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b4563fac6d9dedfb143f69b00232f151/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b94656c2d5539a3c143bd7a0e2ac0f29/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b94656c2d5539a3c143bd7a0e2ac0f29/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/13022f5eed5bbf66b24a0e80fb717187/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/13022f5eed5bbf66b24a0e80fb717187/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/217d66c67cc625cefdbc5c0bb481fdc6/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/217d66c67cc625cefdbc5c0bb481fdc6/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ddad192b48670fd5b7e023e9c82c7774/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ddad192b48670fd5b7e023e9c82c7774/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1af86928970b9f36ba2fa5c390c0a766/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1af86928970b9f36ba2fa5c390c0a766/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c0d2fdc2576e97fd9f17a18e1234a012/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c0d2fdc2576e97fd9f17a18e1234a012/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/7bc69d07c5818e34c983935c74973e7d/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/7bc69d07c5818e34c983935c74973e7d/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b39db6ef6535d049a2e94ddff9266171/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b39db6ef6535d049a2e94ddff9266171/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c43992b268625214f52f5d5a069593ee/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c43992b268625214f52f5d5a069593ee/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f030832658f187a9cbf8b3c76457249c/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f030832658f187a9cbf8b3c76457249c/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/a93e706c27948268a1db7c69babea2be/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/a93e706c27948268a1db7c69babea2be/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ed417242e20e41a48abc1c569c6f7229/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ed417242e20e41a48abc1c569c6f7229/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/295c3a524597804c304915d0c80a9772/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/295c3a524597804c304915d0c80a9772/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/6a14e0064fb65e2e810e0bf70047289e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/6a14e0064fb65e2e810e0bf70047289e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/71a8ac048015a40778cfa35318ebd795/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/71a8ac048015a40778cfa35318ebd795/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1915fb4e824bfa9cf81441261ae83d18/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/1915fb4e824bfa9cf81441261ae83d18/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c2e8771a103c5271d48fd4d8d1f7e814/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c2e8771a103c5271d48fd4d8d1f7e814/transformed/lifecycle-viewmodel-compose-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/19bc5cde075fe29d35c0f2b513e2606d/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/19bc5cde075fe29d35c0f2b513e2606d/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/30eda1a2aa4a0bf904792d5d97e7898c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/30eda1a2aa4a0bf904792d5d97e7898c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/03d1e8de82f2d38f470972267bce410f/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/03d1e8de82f2d38f470972267bce410f/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/3fdc70a9462d24bef86ceecb8f831c73/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/3fdc70a9462d24bef86ceecb8f831c73/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f724d97eb6ed4b07553fd60f6c135198/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/f724d97eb6ed4b07553fd60f6c135198/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4fc1e59f90b82389671167b71a0ffdd7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4fc1e59f90b82389671167b71a0ffdd7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/7f80ecfab0fa13cd142688316db0c9d7/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/7f80ecfab0fa13cd142688316db0c9d7/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b9e04f180d1599fd5d473d3c49ead9c1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/b9e04f180d1599fd5d473d3c49ead9c1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/47407fee3f95a45b2c69ccb67f996553/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/47407fee3f95a45b2c69ccb67f996553/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ca26faef4a1039957bbd83f197592606/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/ca26faef4a1039957bbd83f197592606/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/touhidur/Code/smart-wheelchair/mobile-app/data-collection/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/bee79f3b21c7d420152efc17e2f1c18d/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/4cb5a97e678350eab4e3ac76fcca90fb/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/35e7049447181fdd14d96495a0a2c18c/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/c47356e95397a8c87c1793c93a4a46c5/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.mdtuhinhasnat.smartwheelchairdatacollector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.mdtuhinhasnat.smartwheelchairdatacollector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/666e449bc5e76b3742d5d7687da86191/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/touhidur/.gradle/caches/9.0-milestone-1/transforms/8feb5774b2380d15e210791c90aba6fe/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
